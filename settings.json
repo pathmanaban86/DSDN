@@ -1,10 +1,10 @@
 {
- "data": "/content/ext/Original_Images/Original Images",
+ "data": "/content/ext/mango_crops",
  "map": {
   "Healthy": "Healthy",
-  "Colletotrichum spp": "Anthracnose",
-  "Ectomyelois ceratoniae": "other",
-  "Sunburn": "other"
+  "Alternaria": "Alternaria",
+  "Anthracnose": "Anthracnose",
+  "Scab": "other"
  },
  "square": "crop",
  "tau": 0.5
