@@ -1,20 +1,21 @@
 cff-version: 1.2.0
-message: "If you use this code or the released splits, please cite the article below."
-title: "DSDN: dual-head pomegranate fruit health screening and disease typing (code and results)"
-authors:
-  - family-names: Pugazhendi
-    given-names: P. Pathmanaban
-    orcid: "https://orcid.org/0000-0002-0371-2586"
-  # add co-authors here in article order
+message: "If you use this code or the released data splits, please cite it as below."
+title: "DSDN: dual-head pomegranate fruit health screening and disease typing (code, data splits and results)"
+version: 1.0.0
 license: MIT
 repository-code: "https://github.com/pathmanaban86/DSDN"
-preferred-citation:
-  type: article
-  title: "<final article title>"
-  authors:
-    - family-names: Pugazhendi
-      given-names: P. Pathmanaban
-    # add co-authors here in article order
-  journal: "International Journal of Intelligent Systems"
-  year: 2026
-  doi: "<article DOI>"
+authors:
+  - family-names: Pugazhendi
+    given-names: Pathmanaban
+    orcid: "https://orcid.org/0000-0002-0371-2586"
+  - family-names: Sengottaiyan
+    given-names: Saravanakumar
+  - family-names: Panneerselvam
+    given-names: Anuradha
+  - family-names: O
+    given-names: Vasanthakumari
+  - family-names: Ganapathy
+    given-names: Madasamy Raja
+  - family-names: Perumal
+    given-names: Thiyagarajan
+keywords: [pomegranate, plant disease, deep learning, health screening, Grad-CAM++, reproducibility]
