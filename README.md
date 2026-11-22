@@ -1,4 +1,4 @@
-# A Dual-Head Network with Explicit Health Screening for Interpretable Pomegranate Disease Diagnosis
+# DSDN: dual-head pomegranate fruit health screening and disease typing
 
 Code, data splits and full experimental outputs for the article
 **"&lt;final article title&gt;"** (International Journal of Intelligent Systems, &lt;year&gt;).
@@ -110,6 +110,23 @@ Linear probing shows that both z_h and z_s retain disease-type information (bala
 both). The orthogonality term therefore yields near-orthogonal latent vectors (FSS ≈ 0.998) rather than
 a separation of task information. All images come from one season and one device, and acquisition day is
 partly confounded with class (capture day per image: `splits/fruit_groups.csv`).
+
+## External evaluation (no retraining)
+
+`external_eval.py` applies trained checkpoints to labelled external datasets that are not redistributed here:
+the Halabja pomegranate dataset (Mohammed et al. 2025, https://doi.org/10.5281/zenodo.15856012) and
+MangoFruitBD (Islam et al. 2026, https://doi.org/10.17632/bhrz29mkmr.2; fruit crops cut from the YOLO boxes
+with `external_eval.py yolo_crop`, 20 % margin, EXIF-rotated images skipped). Outputs are in `results/external/`.
+
+| | Pomegranate (n = 2,178) | Mango crops (n = 1,994) |
+|---|---|---|
+| DSDN screening AUROC, 3 seeds | 0.88 ± 0.04 | 0.85 ± 0.03 |
+| DSDN healthy specificity at τ = 0.5 | 0.47 ± 0.22 | 0.60 ± 0.12 |
+| DSDN non-healthy sensitivity at τ = 0.5 | 0.97 ± 0.01 | 0.86 ± 0.03 |
+| DSDN shared-class recall | Anthracnose 0.35 ± 0.05 | Alternaria 0.04 ± 0.03; Anthracnose 0.04 ± 0.02 |
+
+The screening output keeps a threshold-free separation of healthy and non-healthy fruit but needs a
+recalibrated threshold; disease typing does not transfer.
 
 ## Notes
 
