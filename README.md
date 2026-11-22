@@ -1,4 +1,4 @@
-# DSDN: dual-head pomegranate fruit health screening and disease typing
+# A Dual-Head Network with Explicit Health Screening for Interpretable Pomegranate Disease Diagnosis
 
 Code, data splits and full experimental outputs for the article
 **"&lt;final article title&gt;"** (International Journal of Intelligent Systems, &lt;year&gt;).
