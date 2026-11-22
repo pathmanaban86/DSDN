@@ -1,0 +1,40 @@
+{
+ "config": "bl_resnet101",
+ "seed": 42,
+ "best_epoch": 15,
+ "params": 42510405,
+ "val": {
+  "n": 765,
+  "acc": 0.9973856209150327,
+  "f1_weighted": 0.9973952464669631,
+  "f1_macro": 0.9966296294170351,
+  "mcc": 0.9966779824900983,
+  "kappa": 0.9966714383302369,
+  "f1_Alternaria": 1.0,
+  "f1_Anthracnose": 0.997134670487106,
+  "f1_Bacterial_Blight": 0.9965397923875432,
+  "f1_Cercospora": 0.9894736842105263,
+  "f1_Healthy": 1.0
+ },
+ "test": {
+  "n": 765,
+  "acc": 0.9856209150326798,
+  "f1_weighted": 0.9856311560825465,
+  "f1_macro": 0.9835504411586502,
+  "mcc": 0.9817187688937905,
+  "kappa": 0.9817016687034388,
+  "f1_Alternaria": 0.9735849056603774,
+  "f1_Anthracnose": 0.9913544668587896,
+  "f1_Bacterial_Blight": 0.9759450171821306,
+  "f1_Cercospora": 0.9791666666666666,
+  "f1_Healthy": 0.9977011494252873
+ },
+ "screening": {
+  "direct_5class_plain": {
+   "acc_end_to_end": 0.9856209150326798,
+   "healthy_FPR": 0.0,
+   "diseased_FNR": 0.0018248175182481751,
+   "typing_acc_on_diseased": 0.9799270072992701
+  }
+ }
+}

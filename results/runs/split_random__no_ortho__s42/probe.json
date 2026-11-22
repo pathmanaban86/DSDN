@@ -1,0 +1,13 @@
+{
+ "config": "no_ortho",
+ "seed": 42,
+ "zs->disease5": 0.9920725952813066,
+ "zs->health2": 0.9990875912408759,
+ "zs->disease4_diseased_only": 0.9900907441016333,
+ "zh->disease5": 0.986358309567021,
+ "zh->health2": 0.9990875912408759,
+ "zh->disease4_diseased_only": 0.9829478869587762,
+ "f->disease5": 0.9883197203241696,
+ "f->health2": 0.9990875912408759,
+ "f->disease4_diseased_only": 0.9848275862068965
+}

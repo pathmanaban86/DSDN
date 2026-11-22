@@ -1,0 +1,13 @@
+{
+ "config": "full",
+ "seed": 42,
+ "zs->disease5": 0.9890609281825252,
+ "zs->health2": 0.9976958525345623,
+ "zs->disease4_diseased_only": 0.9848975887995851,
+ "zh->disease5": 0.9849105522426758,
+ "zh->health2": 0.9990875912408759,
+ "zh->disease4_diseased_only": 0.9831734508685507,
+ "f->disease5": 0.9861778584392014,
+ "f->health2": 1.0,
+ "f->disease4_diseased_only": 0.9839253305677989
+}

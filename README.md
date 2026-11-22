@@ -1,7 +1,7 @@
 # DSDN: dual-head pomegranate fruit health screening and disease typing
 
 Code, data splits and full experimental outputs for the article
-**"&lt;final article title&gt;"** (International Journal of Intelligent Systems, &lt;year&gt;).
+**"A Dual-Head Network with Explicit Health Screening for Interpretable Pomegranate Disease Diagnosis"** (submitted to the International Journal of Intelligent Systems).
 
 DSDN uses a shared ImageNet-pretrained EfficientNet-B0 backbone with two projection heads:
 
@@ -26,8 +26,12 @@ Each head has its own Grad-CAM++ attribution map. The model has **5,530,211 para
 | `results/tables/` | All tables reported in the article |
 | `results/figures/` | All figures (each panel as a separate file plus a stacked version; PNG and PDF) |
 | `results/pilot_report.txt` | End-to-end pipeline check on a T4 |
+| `external_eval.py` | Evaluation without retraining on labeled external datasets (and `yolo_crop` for bounding-box datasets) |
+| `external_gradcam.py` | Grad-CAM++ maps of both heads and SCS on external images |
+| `results/external/` | Per-image outputs, confusion tables and summaries for both external datasets (Table 14); `gradcam/`: SCS per external class (Supplementary Table S1) |
+| `.zenodo.json`, `CITATION.cff` | Archive and citation metadata |
 
-Model checkpoints (`best.pth`) are archived at: **&lt;Zenodo DOI&gt;**.
+Model checkpoints (`best.pth`) are archived separately at Zenodo (DOI to be added).
 
 ## Data
 
@@ -80,7 +84,7 @@ python dsdn.py train --cache /tmp/cache256 --out out --split splits/split_random
 | Article item | Command | Output |
 |---|---|---|
 | Fig. 2 | `fig2` | `fig2_two_stage.*` |
-| Fig. 4, 5, 6, 7, 8; Fig. S3 | `figures` | `results/figures/fig4*` … `fig8*`, `figS3*` |
+| Fig. 4, 5, 6, 7, 8; Supplementary Fig. S1 | `figures` | `results/figures/fig4*` … `fig8*`, `figS3_pca_stacked.*` (Fig. S1) |
 | Fig. 9 (correct and misclassified examples) | `fig9` | `fig9_correct.*`, `fig9_misclassified.*` |
 | Table 7 (parameters, T4 latency) | `benchmark` | `table7_complexity.csv` |
 | Table 8 (comparison, bootstrap CI, McNemar, Bonferroni) | `stats` | `table8_comparison.csv` |
@@ -94,6 +98,8 @@ python dsdn.py train --cache /tmp/cache256 --out out --split splits/split_random
 | Five-fold cross-validation (fixed test set) | `summarize` | `table_cv.csv` |
 | Duplicate / capture-burst overlap per split | `dupcheck` | `table_duplicate_audit.csv`, `table_day_by_subset_*.csv` |
 | Acquisition sites per class and subset | `farms` | `table_site_by_class.csv`, `table_site_by_subset_*.csv` |
+| Table 14 (external evaluation) | `external_eval.py` | `results/external/<dataset>/summary.csv`, `confusion__*.csv`, `per_image__*.csv`; `screening_auroc.csv` |
+| Supplementary Fig. S2, Table S1 | `external_gradcam.py` | `figS2*_external_gradcam*.png`, `results/external/gradcam/ext_scs_by_class_*.csv` |
 
 ## Main results (test set)
 

@@ -1,0 +1,5 @@
+external_class,maps_to,n,pred_Alternaria,pred_Anthracnose,pred_Bacterial_Blight,pred_Cercospora,pred_Healthy
+Colletotrichum spp,Anthracnose,571,61,230,116,154,10
+Ectomyelois ceratoniae,other,555,8,66,232,249,0
+Healthy,Healthy,661,165,71,15,275,135
+Sunburn,other,391,102,89,21,175,4

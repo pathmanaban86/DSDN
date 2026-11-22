@@ -1,0 +1,16 @@
+{
+  "title": "DSDN: dual-head pomegranate fruit health screening and disease typing (code, data splits and results)",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "description": "<p>Code, data splits, training logs and per-image outputs for the Dual-head Screening and Diagnosis Network (DSDN): a shared EfficientNet-B0 backbone with a binary health-screening head and a five-class disease-typing head, evaluated on a public pomegranate fruit disease dataset. Includes the duplicate and acquisition audit, the fruit-grouped split, five-fold cross-validation, ablations, nine baselines, loss-weight sensitivity, linear probing, Grad-CAM++ concentration analysis and an evaluation without retraining on two labeled external datasets. Image datasets are not redistributed.</p>",
+  "creators": [
+    {"name": "Pugazhendi, Pathmanaban", "orcid": "0000-0002-0371-2586", "affiliation": "Easwari Engineering College"},
+    {"name": "Sengottaiyan, Saravanakumar", "affiliation": "Villa College"},
+    {"name": "Panneerselvam, Anuradha", "affiliation": "Easwari Engineering College"},
+    {"name": "O, Vasanthakumari", "affiliation": "S.A. Engineering College"},
+    {"name": "Ganapathy, Madasamy Raja", "affiliation": "Agni College of Technology"},
+    {"name": "Perumal, Thiyagarajan", "affiliation": "Sona College of Technology"}
+  ],
+  "keywords": ["pomegranate disease", "health screening", "dual-head network", "Grad-CAM++", "plant disease classification", "reproducibility"]
+}

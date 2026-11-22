@@ -1,21 +1,32 @@
 cff-version: 1.2.0
-message: "If you use this code or the released data splits, please cite it as below."
+message: "If you use this code, the data splits or the results, please cite this software."
 title: "DSDN: dual-head pomegranate fruit health screening and disease typing (code, data splits and results)"
-version: 1.0.0
-license: MIT
-repository-code: "https://github.com/pathmanaban86/DSDN"
+type: software
 authors:
   - family-names: Pugazhendi
     given-names: Pathmanaban
     orcid: "https://orcid.org/0000-0002-0371-2586"
+    affiliation: "Easwari Engineering College, Chennai, India"
   - family-names: Sengottaiyan
     given-names: Saravanakumar
+    affiliation: "Villa College, Maldives"
   - family-names: Panneerselvam
     given-names: Anuradha
+    affiliation: "Easwari Engineering College, Chennai, India"
   - family-names: O
     given-names: Vasanthakumari
+    affiliation: "S.A. Engineering College, Chennai, India"
   - family-names: Ganapathy
     given-names: Madasamy Raja
+    affiliation: "Agni College of Technology, Chennai, India"
   - family-names: Perumal
     given-names: Thiyagarajan
-keywords: [pomegranate, plant disease, deep learning, health screening, Grad-CAM++, reproducibility]
+    affiliation: "Sona College of Technology, Salem, India"
+license: MIT
+repository-code: "https://github.com/pathmanaban86/DSDN"
+keywords:
+  - pomegranate disease
+  - health screening
+  - dual-head network
+  - Grad-CAM++
+  - plant disease classification

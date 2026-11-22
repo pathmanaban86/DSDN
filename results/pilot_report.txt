@@ -1,0 +1,36 @@
+[PASS] GPU available  Tesla T4
+[PASS] local cache complete  5099 images
+[PASS] pilot split has no overlap  train 300 / val 75 / test 75
+[PASS] main split has no overlap  split_random.json: 3569/765/765
+[PASS] modules  ['decoder', 'disease_classifier', 'encoder', 'healthy_classifier', 'healthy_encoder', 'symptom_encoder']
+[PASS] parameter count   5,530,211
+[PASS] output shapes  {'d': (2, 5), 'h': (2, 2), 'zs': (2, 128), 'zh': (2, 128), 'rec': (2, 1280), 'f': (2, 1280)}
+       full            params 5,530,211
+       no_ortho        params 5,530,211
+       no_recon        params 5,530,211
+       matched_ctrl    params 5,530,211
+       no_healthy      params 5,099,649
+       no_disentangle  params 5,099,649
+       plain_effb0     params 4,013,953
+[PASS] binary label: 1 = healthy, 0 = diseased  
+[PASS] train+evaluate full  20s
+[PASS] train+evaluate no_ortho  6s
+[PASS] train+evaluate no_recon  6s
+[PASS] train+evaluate matched_ctrl  5s
+[PASS] train+evaluate no_healthy  6s
+[PASS] train+evaluate no_disentangle  5s
+[PASS] train+evaluate plain_effb0  5s
+[PASS] losses finite  
+[PASS] total loss decreases  0.565 -> 0.184
+[PASS] orthogonality loss decreases  0.0055 -> 0.0008
+[PASS] FSS increases  0.979 -> 0.991
+[PASS] 5-class learns (test acc > 0.5 after 4 epochs on 300 images)  0.973
+[PASS] binary head learns (test acc > 0.7)  1.000
+[PASS] gated vs direct computed  tau_val=0.1
+[PASS] per-image predictions saved  75 rows
+[PASS] Grad-CAM++ maps valid  SCS symptom 0.631, healthy 0.620
+[PASS] kill-and-resume  killed after epoch 1, resumed and finished
+[PASS] resumed run has all epochs once  epochs logged: [1, 2, 3]
+       time: 0.177 s/batch -> about 49 s/epoch -> about 21 min per 25-epoch run -> 17 runs about 5.8 h, 35 runs about 12.0 h
+[PASS] output folder writable  <OUT>
+ALL CHECKS PASSED - start the full runs

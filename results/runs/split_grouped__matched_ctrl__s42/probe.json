@@ -1,0 +1,13 @@
+{
+ "config": "matched_ctrl",
+ "seed": 42,
+ "zs->disease5": 0.9843003433228323,
+ "zs->health2": 1.0,
+ "zs->disease4_diseased_only": 0.9833762046348447,
+ "zh->disease5": 0.9771312507240222,
+ "zh->health2": 1.0,
+ "zh->disease4_diseased_only": 0.9745667727646335,
+ "f->disease5": 0.9851802025453568,
+ "f->health2": 1.0,
+ "f->disease4_diseased_only": 0.9860357791029297
+}
