@@ -23,6 +23,7 @@ authors:
     given-names: Thiyagarajan
     affiliation: "Sona College of Technology, Salem, India"
 license: MIT
+doi: "10.5281/zenodo.24444045"
 repository-code: "https://github.com/pathmanaban86/DSDN"
 keywords:
   - pomegranate disease

@@ -1,5 +1,7 @@
 # DSDN: dual-head pomegranate fruit health screening and disease typing
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24444045.svg)](https://doi.org/10.5281/zenodo.24444045)
+
 Code, data splits and full experimental outputs for the article
 **"A Dual-Head Network with Explicit Health Screening for Interpretable Pomegranate Disease Diagnosis"** (submitted to the International Journal of Intelligent Systems).
 
@@ -142,6 +144,8 @@ recalibrated threshold; disease typing does not transfer.
 - Determinism: the training order and augmentation are seeded per epoch, so a resumed run reproduces an uninterrupted run.
 
 ## Citation
+
+Please cite the archived software: https://doi.org/10.5281/zenodo.24444045 (all versions; v1.0.0: https://doi.org/10.5281/zenodo.24444046).
 
 See `CITATION.cff`.
 
