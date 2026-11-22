@@ -1,0 +1,11 @@
+split,class,f1,fss
+split_grouped,Alternaria,0.9852,0.9980
+split_grouped,Anthracnose,0.9884,0.9985
+split_grouped,Bacterial_Blight,0.9720,0.9984
+split_grouped,Cercospora,0.9688,0.9995
+split_grouped,Healthy,1.0000,0.9967
+split_random,Alternaria,0.9849 ± 0.0037,0.9977 ± 0.0010
+split_random,Anthracnose,0.9885 ± 0.0029,0.9981 ± 0.0002
+split_random,Bacterial_Blight,0.9896 ± 0.0035,0.9984 ± 0.0005
+split_random,Cercospora,0.9828 ± 0.0029,0.9985 ± 0.0004
+split_random,Healthy,0.9962 ± 0.0013,0.9990 ± 0.0001

@@ -1,0 +1,2 @@
+split,config,n_folds,val_acc_%,test_acc_%
+split_random,full,5,99.35 ± 0.21,98.75 ± 0.54

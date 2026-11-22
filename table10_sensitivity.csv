@@ -1,0 +1,5 @@
+config,coefficient,value,val_f1_weighted,val_fss,test_acc
+full,selected,"alpha=0.5, beta=0.1, gamma=0.2",0.9961,0.9987,0.9908
+sens_a0.3,alpha,0.3,0.9974,0.9983,0.9935
+sens_a0.7,alpha,0.7,0.9948,0.9973,0.9908
+sens_b0.05,beta,0.05,0.9948,0.9986,0.9961

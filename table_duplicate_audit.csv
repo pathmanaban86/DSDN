@@ -1,0 +1,3 @@
+split,n_test,test_with_near_duplicate_in_train,test_sharing_capture_burst_with_train
+split_grouped,770,0,0
+split_random,765,48,723

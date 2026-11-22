@@ -1,0 +1,23 @@
+split,config,n_seeds,params_M,acc_%,f1_weighted,mcc,fss,mcnemar_p_vs_full_seed42
+split_grouped,full,1,5.53,98.57,0.9857,0.9819,0.9980,
+split_grouped,matched_ctrl,1,5.53,97.27,0.9728,0.9654,0.9550,0.04138946533203125
+split_grouped,plain_effb0,1,4.01,99.35,0.9935,0.9917,n/a (single head),0.109375
+split_random,bl_convnext_t,1,27.82,99.22,0.9922,0.9900,n/a (single head),1.0
+split_random,bl_densenet121,1,6.96,98.30,0.9830,0.9784,n/a (single head),0.03125
+split_random,bl_efficientnet_b0,1,4.01,98.95,0.9896,0.9867,n/a (single head),1.0
+split_random,bl_efficientnet_b3,1,10.7,98.56,0.9856,0.9817,n/a (single head),0.3876953125
+split_random,bl_mobilenetv3_l,1,4.21,99.22,0.9922,0.9900,n/a (single head),1.0
+split_random,bl_resnet101,1,42.51,98.56,0.9856,0.9817,n/a (single head),0.21875
+split_random,bl_resnet50,1,23.52,99.08,0.9909,0.9884,n/a (single head),1.0
+split_random,bl_swin_t,1,27.52,98.69,0.9869,0.9834,n/a (single head),0.548828125
+split_random,bl_vit_b16,1,85.8,99.61,0.9961,0.9950,n/a (single head),0.21875
+split_random,full,3,5.53,98.95 ± 0.13,0.9896 ± 0.0013,0.9867 ± 0.0017,0.9984 ± 0.0003,
+split_random,matched_ctrl,1,5.53,99.08,0.9909,0.9884,0.9578,1.0
+split_random,no_disentangle,1,5.1,98.95,0.9896,0.9867,n/a (single head),1.0
+split_random,no_healthy,1,5.1,99.48,0.9948,0.9933,n/a (single head),0.453125
+split_random,no_ortho,1,5.53,99.22,0.9922,0.9900,0.9573,1.0
+split_random,no_recon,1,5.53,99.08,0.9909,0.9884,0.9984,1.0
+split_random,plain_effb0,1,4.01,98.95,0.9896,0.9867,n/a (single head),1.0
+split_random,sens_a0.3,1,5.53,99.35,0.9935,0.9917,0.9985,0.75390625
+split_random,sens_a0.7,1,5.53,99.08,0.9909,0.9884,0.9972,1.0
+split_random,sens_b0.05,1,5.53,99.61,0.9961,0.9950,0.9986,0.21875

@@ -1,0 +1,11 @@
+Model,Params (M),Latency mean (ms),Latency SD (ms),device,runs
+DSDN,5.53,8.83,2.32,Tesla T4,300
+ResNet-50,23.52,6.82,1.5,Tesla T4,300
+ResNet-101,42.51,12.71,2.93,Tesla T4,300
+DenseNet-121,6.96,15.7,2.01,Tesla T4,300
+EfficientNet-B0,4.01,10.36,2.23,Tesla T4,300
+EfficientNet-B3,10.7,12.84,1.35,Tesla T4,300
+MobileNetV3-L,4.21,6.65,1.51,Tesla T4,300
+ViT-B/16,85.8,13.13,0.28,Tesla T4,300
+Swin-T,27.52,12.31,2.0,Tesla T4,300
+ConvNeXt-Tiny,27.82,6.0,0.73,Tesla T4,300
