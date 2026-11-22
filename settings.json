@@ -1,0 +1,11 @@
+{
+ "data": "/content/ext/Original_Images/Original Images",
+ "map": {
+  "Healthy": "Healthy",
+  "Colletotrichum spp": "Anthracnose",
+  "Ectomyelois ceratoniae": "other",
+  "Sunburn": "other"
+ },
+ "square": "crop",
+ "tau": 0.5
+}
